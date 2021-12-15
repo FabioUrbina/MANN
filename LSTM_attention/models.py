@@ -6,9 +6,6 @@ import pandas as pd
 import numpy as np
 import re
 from sklearn.utils import shuffle
-import vanilla_encoder_decoder as vn
-import class_model as cm
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
